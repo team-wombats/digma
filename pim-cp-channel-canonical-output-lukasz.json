@@ -454,6 +454,689 @@
           "environmentId": "0b1df145-a523-4f8b-a1bd-a61b32e87602"
         }
       ]
+    },
+    {
+      "composedId": {
+        "id": "2b4a959a-f7c0-43dd-91b2-c31384d279a8",
+        "version": "v1",
+        "catalog": "live"
+      },
+      "locale": "en_US",
+      "technicalName": "hana-byol",
+      "type": "Service",
+      "name": "SAP Cloud Platform SAP HANA Service",
+      "shortName": "SAP HANA",
+      "description": {
+        "small": "Create and consume SAP HANA databases.",
+        "large": "The SAP Cloud Platform SAP HANA service lets you consume SAP HANA databases from your applications running on SAP Cloud Platform or on-premise, via Java APIs and other application runtime environments. It provides in-memory and relational data persistence, and offers self-services, for example, to create new databases, to update your databases, or to trigger restore, while SAP is providing infrastructure and database platform operations. Moreover, you can use a variety of included services, such as geospatial information processing, advanced predictive analytics, and text-mining capabilities."
+      },
+      "provider": {
+        "id": "f23141f2-dc6e-440a-87b2-ea7898168477",
+        "name": "SAP SE",
+        "description": "As the market leader in enterprise application software, SAP is at the center of today's business and technology revolution. Our innovations enable 300,000 customers worldwide to work together more efficiently and use business insight more effectively.",
+        "iconUrl": "https://digitalmarketplace-sapcp.s3.eu-central-1.amazonaws.com/DR-TaUfZSJuAaC89RmL8Ft-U2kBVmZMTVDj0A-A1CxVnNiw5ffVzwDeZEwOZ7cNF.svg"
+      },
+      "headlines": [
+        {
+          "headline": "Data availability and resiliency",
+          "text": "In-memory and relational data persistence to applications running on SAP Cloud Platform."
+        },
+        {
+          "headline": "Manage and access HANA databases",
+          "text": "Store your data in the cloud. The persistence services also perform tasks such as backup, recovery, and load balancing."
+        },
+        {
+          "headline": "Advanced data processing",
+          "text": "Process multiple types of data for your business, such as text, spatial, graph, and series data."
+        }
+      ],
+      "prerequisites": {
+        "technicalAssetPrerequisites": []
+      },
+      "resources": [],
+      "media": [
+        {
+          "type": "ICON",
+          "title": "Create and consume SAP HANA databases.",
+          "altText": "Create and consume SAP HANA databases.",
+          "url": "https://digitalmarketplace-sapcpprd.s3.eu-central-1.amazonaws.com/yPmCYjF2XSQ0oWc47fTR-wTd8mLBryS5JdbZiqdE8YkWT6CSheqCZa148o_DxN_o.svg",
+          "format": "IMAGE"
+        },
+        {
+          "type": "GALLERY",
+          "title": "SAP HANA",
+          "altText": "",
+          "url": "https://digitalmarketplace-sapcpprd.s3.eu-central-1.amazonaws.com/HKTAJlrDcyhfl6W-zPGBLzmIqMTIXvY66tBC4dfG_UB7VhYGwJQsYIvhR9IU3kia.png",
+          "format": "IMAGE"
+        },
+        {
+          "type": "GALLERY",
+          "title": "SAP Cloud Platform HANA Service",
+          "altText": "",
+          "url": "https://youtube.com/embed/sBweIGEFAXc",
+          "format": "VIDEO/YOUTUBE"
+        }
+      ],
+      "environments": [
+        {
+          "id": "ddac286a-30e6-43fe-9c05-509f03ed2c34",
+          "code": "neo-cn1",
+          "region": {
+            "id": "cc30b16e-f11d-4174-99c2-fb2d1a1eff56",
+            "name": "China (Shanghai)",
+            "technicalName": "not-defined"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "c90fa5f2-44f1-41a3-aef2-07e4f3c05000",
+          "code": "neo-ca1",
+          "region": {
+            "id": "47ca8bc5-546b-421d-9a19-3880c83ea3fa",
+            "name": "Canada (Toronto)",
+            "technicalName": "canada"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "a254a104-2f0e-4372-9b42-3bdd4fe1ff3d",
+          "code": "neo-us3",
+          "region": {
+            "id": "50d6338a-4abb-47e0-a8ce-db02810f4471",
+            "name": "US East (Sterling)",
+            "technicalName": "us_east"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "8ca5e4f1-7589-46fa-8ace-98dfebe1ca46",
+          "code": "neo-us1",
+          "region": {
+            "id": "5184d09f-4b45-4d42-a9aa-a4ecb3482943",
+            "name": "US East (Ashburn)",
+            "technicalName": "us_east"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "6fe64b7f-1551-42b9-a6d5-b66758607f28",
+          "code": "neo-ru1",
+          "region": {
+            "id": "08bb3672-95c5-4609-aa96-6e2f7f713623",
+            "name": "Russia (Moscow)",
+            "technicalName": "russia"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "6ba237cd-ed04-4b10-919e-b327ea3fedbf",
+          "code": "neo-us2",
+          "region": {
+            "id": "67338833-1f29-4e08-9965-c9895c79470a",
+            "name": "US West (Chandler)",
+            "technicalName": "us_west"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "66972c44-52a8-41d9-be97-f5b5abc92728",
+          "code": "neo-eu3",
+          "region": {
+            "id": "6c412687-8081-49db-b336-cd1850aeeb05",
+            "name": "Europe (Amsterdam)",
+            "technicalName": "europe"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "278f9c5a-37c9-4a26-b8f7-ed63b9780b8a",
+          "code": "neo-ap1",
+          "region": {
+            "id": "246985bc-1006-4277-9e82-921648802297",
+            "name": "Australia (Sydney)",
+            "technicalName": "australia"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "1cef2527-074d-468f-b0bc-50a3f91025b1",
+          "code": "neo-jp1",
+          "region": {
+            "id": "812021ee-9c03-4378-b1d5-869ed5375a8d",
+            "name": "Japan (Tokyo)",
+            "technicalName": "japan"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "0b1df145-a523-4f8b-a1bd-a61b32e87602",
+          "code": "cf-br10",
+          "region": {
+            "id": "0738692e-4955-47b7-8984-ea5fe12a553b",
+            "name": "Brazil (Sao Paulo)",
+            "technicalName": "brasil"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        },
+        {
+          "id": "092b097e-b5f5-40ab-94d0-0601e62ed4d2",
+          "code": "neo-eu1",
+          "region": {
+            "id": "cfd21849-d3ec-4ee5-b2cd-e6320eccbc6e",
+            "name": "Europe (Rot)",
+            "technicalName": "europe"
+          },
+          "infrastructure": {
+            "id": "bedbe4b7-ab64-4c90-9383-97f59f67cf72",
+            "name": "SAP"
+          },
+          "platform": {
+            "id": "591e63d6-4ce3-4e7d-9d5b-f698b1bfe266",
+            "name": "NEO"
+          }
+        }
+      ],
+      "servicePlans": [
+        {
+          "id": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "code": "64gb",
+          "name": "64 GB",
+          "description": "-",
+          "materialNumber": "8003366",
+          "features": [
+            {
+              "name": "Cores",
+              "value": " 12 "
+            },
+            {
+              "name": "SAP HANA RAM",
+              "value": " 64 GB"
+            },
+            {
+              "name": "Disk Space",
+              "value": " 640 GB"
+            },
+            {
+              "name": "per Month Bandwidth Out",
+              "value": " 512 GB "
+            },
+            {
+              "name": "Bandwidth In",
+              "value": " Free and Unlimited "
+            }
+          ]
+        },
+        {
+          "id": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "code": "128gb",
+          "name": "128 GB",
+          "description": "-",
+          "materialNumber": "8003367",
+          "features": [
+            {
+              "name": "Cores",
+              "value": " 24 "
+            },
+            {
+              "name": "SAP HANA RAM",
+              "value": " 128 GB"
+            },
+            {
+              "name": "Disk Space",
+              "value": " 1.2 TB"
+            },
+            {
+              "name": "per Month Bandwidth Out",
+              "value": " 512 GB"
+            },
+            {
+              "name": "Bandwidth In",
+              "value": " Free and Unlimited "
+            }
+          ]
+        },
+        {
+          "id": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "code": "256gb",
+          "name": "256 GB",
+          "description": "-",
+          "materialNumber": "8003368",
+          "features": [
+            {
+              "name": "Cores",
+              "value": " 32"
+            },
+            {
+              "name": "SAP HANA RAM",
+              "value": " 256 GB"
+            },
+            {
+              "name": "Disk Space",
+              "value": " 2.5 TB"
+            },
+            {
+              "name": "per Month Bandwidth Out",
+              "value": " 1 TB "
+            },
+            {
+              "name": "Bandwidth In",
+              "value": " Free and Unlimited "
+            }
+          ]
+        },
+        {
+          "id": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "code": "512gb",
+          "name": "512 GB",
+          "description": "-",
+          "materialNumber": "8003369",
+          "features": [
+            {
+              "name": "Cores",
+              "value": " 40"
+            },
+            {
+              "name": "SAP HANA RAM",
+              "value": " 512 GB"
+            },
+            {
+              "name": "Disk Space",
+              "value": " 5.2 TB"
+            },
+            {
+              "name": "per Month Bandwidth Out",
+              "value": " 1 TB "
+            },
+            {
+              "name": "Bandwidth In",
+              "value": " Free and Unlimited"
+            }
+          ]
+        },
+        {
+          "id": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "code": "1tb",
+          "name": "1 TB",
+          "description": "-",
+          "materialNumber": "8003370",
+          "features": [
+            {
+              "name": "Cores",
+              "value": " 80"
+            },
+            {
+              "name": "SAP HANA RAM",
+              "value": " 1 TB"
+            },
+            {
+              "name": "Disk Space",
+              "value": " 10 TB"
+            },
+            {
+              "name": "per Month Bandwidth Out",
+              "value": " 1 TB"
+            },
+            {
+              "name": "Bandwidth In",
+              "value": " Free and Unlimited"
+            }
+          ]
+        }
+      ],
+      "metricDefinitions": [
+        {
+          "id": "instances",
+          "name": "Instances",
+          "description": "An Instance provisioned during the month"
+        }
+      ],
+      "technicalAssetVariants": [
+        {
+          "id": "49449b87-03ac-478d-956a-35fc1ba9bf29",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "ddac286a-30e6-43fe-9c05-509f03ed2c34"
+        },
+        {
+          "id": "17fd90b3-a12f-4e54-98fc-f99922ae03fc",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "ddac286a-30e6-43fe-9c05-509f03ed2c34"
+        },
+        {
+          "id": "a4de7cc4-a768-4115-9742-532b2b97a057",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "ddac286a-30e6-43fe-9c05-509f03ed2c34"
+        },
+        {
+          "id": "de0611ce-73a7-412f-bdab-01facd5bc324",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "ddac286a-30e6-43fe-9c05-509f03ed2c34"
+        },
+        {
+          "id": "9d234f6d-7b22-4fd2-b2ea-70d59c6f094c",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "ddac286a-30e6-43fe-9c05-509f03ed2c34"
+        },
+        {
+          "id": "9a4a49bb-491b-4543-85d0-e1ea2bac288c",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "c90fa5f2-44f1-41a3-aef2-07e4f3c05000"
+        },
+        {
+          "id": "d29ba360-04a0-45b1-bbe1-c60b597b52b3",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "c90fa5f2-44f1-41a3-aef2-07e4f3c05000"
+        },
+        {
+          "id": "d411d081-7829-45aa-aeae-6f47eecc318d",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "c90fa5f2-44f1-41a3-aef2-07e4f3c05000"
+        },
+        {
+          "id": "90cf92cb-bbfc-4838-a2db-ffc89a284b6d",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "c90fa5f2-44f1-41a3-aef2-07e4f3c05000"
+        },
+        {
+          "id": "8d5102cf-a9ef-4d4d-be59-0fc66398d606",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "c90fa5f2-44f1-41a3-aef2-07e4f3c05000"
+        },
+        {
+          "id": "f25e16d9-ceca-4597-9d5a-911ab43d606b",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "a254a104-2f0e-4372-9b42-3bdd4fe1ff3d"
+        },
+        {
+          "id": "bf92bfbb-167d-4154-b2dd-59735652c45a",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "a254a104-2f0e-4372-9b42-3bdd4fe1ff3d"
+        },
+        {
+          "id": "8f582a44-7b12-42a4-a6dd-e8a971de5df2",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "a254a104-2f0e-4372-9b42-3bdd4fe1ff3d"
+        },
+        {
+          "id": "459ada66-d8e8-44b6-8d58-a874063a0cde",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "a254a104-2f0e-4372-9b42-3bdd4fe1ff3d"
+        },
+        {
+          "id": "975523b7-278e-40cf-a608-bf8a36b9cdc4",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "a254a104-2f0e-4372-9b42-3bdd4fe1ff3d"
+        },
+        {
+          "id": "b9dbe0c4-da54-4c16-9908-d8498c9041bf",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "8ca5e4f1-7589-46fa-8ace-98dfebe1ca46"
+        },
+        {
+          "id": "c5ee17e3-e2ef-46e7-8ac7-3588936bdbd7",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "8ca5e4f1-7589-46fa-8ace-98dfebe1ca46"
+        },
+        {
+          "id": "ec3a2396-08e4-42ab-ac9d-7989aba01a4d",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "8ca5e4f1-7589-46fa-8ace-98dfebe1ca46"
+        },
+        {
+          "id": "81d4db37-6f5b-43c7-bf19-addfd761d085",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "8ca5e4f1-7589-46fa-8ace-98dfebe1ca46"
+        },
+        {
+          "id": "6e4b5c1f-6b9a-4a34-919f-ffc07b5ce137",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "8ca5e4f1-7589-46fa-8ace-98dfebe1ca46"
+        },
+        {
+          "id": "36f1e87c-4d0e-4479-bbe3-56004511dbf5",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "6fe64b7f-1551-42b9-a6d5-b66758607f28"
+        },
+        {
+          "id": "a8ff6b77-c36a-4d3a-bd12-dae2fd2ce2b8",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "6fe64b7f-1551-42b9-a6d5-b66758607f28"
+        },
+        {
+          "id": "17e5b0d0-4d95-42b2-981f-de00485a87a9",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "6fe64b7f-1551-42b9-a6d5-b66758607f28"
+        },
+        {
+          "id": "204ea97d-49ef-4194-a6e7-9a456639c768",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "6fe64b7f-1551-42b9-a6d5-b66758607f28"
+        },
+        {
+          "id": "34ff9429-9b26-46f1-b4a3-588771f2da45",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "6fe64b7f-1551-42b9-a6d5-b66758607f28"
+        },
+        {
+          "id": "35ec8d60-196e-441d-8131-c586438310b1",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "6ba237cd-ed04-4b10-919e-b327ea3fedbf"
+        },
+        {
+          "id": "e5ecac15-a03e-444c-b00d-887570f8b434",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "6ba237cd-ed04-4b10-919e-b327ea3fedbf"
+        },
+        {
+          "id": "edcf51fb-4f24-4332-a921-8a6c9cca87a1",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "6ba237cd-ed04-4b10-919e-b327ea3fedbf"
+        },
+        {
+          "id": "91a908ad-f030-4fff-9ffc-8dc96dc0366b",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "6ba237cd-ed04-4b10-919e-b327ea3fedbf"
+        },
+        {
+          "id": "9418d434-589b-4bb1-aa47-567936686ed8",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "6ba237cd-ed04-4b10-919e-b327ea3fedbf"
+        },
+        {
+          "id": "cbb818d9-a5b0-4798-8134-62ba7cc6d4e1",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "66972c44-52a8-41d9-be97-f5b5abc92728"
+        },
+        {
+          "id": "f2e9c8e9-114d-4618-9d95-731ee8141d7b",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "66972c44-52a8-41d9-be97-f5b5abc92728"
+        },
+        {
+          "id": "15934e84-fced-4ebd-8475-f844d22825d3",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "66972c44-52a8-41d9-be97-f5b5abc92728"
+        },
+        {
+          "id": "1019d257-e1b9-4786-8dc9-25b2131e566d",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "66972c44-52a8-41d9-be97-f5b5abc92728"
+        },
+        {
+          "id": "1837a189-05da-43b5-a01c-e0a626ff4672",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "66972c44-52a8-41d9-be97-f5b5abc92728"
+        },
+        {
+          "id": "db49bb22-a372-4fcc-a592-4c68b4afb8d2",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "278f9c5a-37c9-4a26-b8f7-ed63b9780b8a"
+        },
+        {
+          "id": "ade7e8de-b5ce-47e0-82a0-73f36d17d9e9",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "278f9c5a-37c9-4a26-b8f7-ed63b9780b8a"
+        },
+        {
+          "id": "9515dcf7-d71d-40c6-bc3a-7ce3849f65f8",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "278f9c5a-37c9-4a26-b8f7-ed63b9780b8a"
+        },
+        {
+          "id": "7d568df2-1088-474d-95fc-e54152778fbc",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "278f9c5a-37c9-4a26-b8f7-ed63b9780b8a"
+        },
+        {
+          "id": "2be6115b-ab37-476a-87ae-a59735b895eb",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "278f9c5a-37c9-4a26-b8f7-ed63b9780b8a"
+        },
+        {
+          "id": "7278093e-4ab5-46f3-a00c-e5485d19a31e",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "1cef2527-074d-468f-b0bc-50a3f91025b1"
+        },
+        {
+          "id": "46fea46d-9f39-4cdc-b6f6-a7ff2b37971e",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "1cef2527-074d-468f-b0bc-50a3f91025b1"
+        },
+        {
+          "id": "f3426877-6d73-422e-9ad8-038c1f35b94b",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "1cef2527-074d-468f-b0bc-50a3f91025b1"
+        },
+        {
+          "id": "d4e77647-ca31-4590-a6f9-9b306d0225b5",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "1cef2527-074d-468f-b0bc-50a3f91025b1"
+        },
+        {
+          "id": "2409caff-9b67-4b33-984d-47bcaa36283f",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "1cef2527-074d-468f-b0bc-50a3f91025b1"
+        },
+        {
+          "id": "aa3b554a-3635-48d0-a8c7-668199cede10",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "0b1df145-a523-4f8b-a1bd-a61b32e87602"
+        },
+        {
+          "id": "35635854-965f-478f-8229-80f7dd1b5db3",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "0b1df145-a523-4f8b-a1bd-a61b32e87602"
+        },
+        {
+          "id": "9728d0d5-b5f4-4eed-a51b-a95fb5d6ea42",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "0b1df145-a523-4f8b-a1bd-a61b32e87602"
+        },
+        {
+          "id": "1563692e-bf66-4039-bbe0-9b04c9de48b7",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "0b1df145-a523-4f8b-a1bd-a61b32e87602"
+        },
+        {
+          "id": "b553fd0b-7bd9-423e-9f26-1719780406e3",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "0b1df145-a523-4f8b-a1bd-a61b32e87602"
+        },
+        {
+          "id": "bacc8fd3-14dd-4bec-9a44-3f1843e73124",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "environmentId": "092b097e-b5f5-40ab-94d0-0601e62ed4d2"
+        },
+        {
+          "id": "68816948-bc6e-40dc-879b-3c38f6dfb635",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "environmentId": "092b097e-b5f5-40ab-94d0-0601e62ed4d2"
+        },
+        {
+          "id": "a2e70ac6-a436-4e2c-9dc1-6d768fba7360",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "environmentId": "092b097e-b5f5-40ab-94d0-0601e62ed4d2"
+        },
+        {
+          "id": "2b2501a5-1897-4354-9c76-123bffb21b50",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "environmentId": "092b097e-b5f5-40ab-94d0-0601e62ed4d2"
+        },
+        {
+          "id": "572186d0-df64-4d67-8665-06f4b60ebf32",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "environmentId": "092b097e-b5f5-40ab-94d0-0601e62ed4d2"
+        }
+      ]
     }
   ],
   "products": [
@@ -943,6 +1626,934 @@
           "type": "CAT",
           "id": "2.3",
           "val": "2.3"
+        }
+      ]
+    },
+    {
+      "composedId": {
+        "id": "34bbba7f-d541-474a-99ca-b5659db58652",
+        "version": "v1",
+        "catalog": "live"
+      },
+      "productType": "SKU",
+      "technicalName": "hana-byol",
+      "locale": "en_US",
+      "provider": {
+        "id": "f23141f2-dc6e-440a-87b2-ea7898168477",
+        "name": "SAP SE",
+        "description": "As the market leader in enterprise application software, SAP is at the center of today's business and technology revolution. Our innovations enable 300,000 customers worldwide to work together more efficiently and use business insight more effectively.",
+        "iconUrl": "https://digitalmarketplace-sapcp.s3.eu-central-1.amazonaws.com/DR-TaUfZSJuAaC89RmL8Ft-U2kBVmZMTVDj0A-A1CxVnNiw5ffVzwDeZEwOZ7cNF.svg"
+      },
+      "keywords": [],
+      "extractionTimestamp": "2018-03-16T11:36:49.722Z",
+      "entitlementRules": [
+        {
+          "id": "6f2870d6-04c5-484f-83aa-66df450c473f",
+          "type": "standard-entitlement-rule",
+          "servicePlanId": "42952850-a172-4d76-b280-3f7db6012ca0",
+          "technicalAssetId": {
+            "composedId": {
+              "id": "2b4a959a-f7c0-43dd-91b2-c31384d279a8",
+              "version": "v1",
+              "catalog": "live"
+            }
+          },
+          "technicalAssetVariants": [
+            {
+              "technicalAssetVariantId": "49449b87-03ac-478d-956a-35fc1ba9bf29"
+            },
+            {
+              "technicalAssetVariantId": "9a4a49bb-491b-4543-85d0-e1ea2bac288c"
+            },
+            {
+              "technicalAssetVariantId": "f25e16d9-ceca-4597-9d5a-911ab43d606b"
+            },
+            {
+              "technicalAssetVariantId": "b9dbe0c4-da54-4c16-9908-d8498c9041bf"
+            },
+            {
+              "technicalAssetVariantId": "36f1e87c-4d0e-4479-bbe3-56004511dbf5"
+            },
+            {
+              "technicalAssetVariantId": "35ec8d60-196e-441d-8131-c586438310b1"
+            },
+            {
+              "technicalAssetVariantId": "db49bb22-a372-4fcc-a592-4c68b4afb8d2"
+            },
+            {
+              "technicalAssetVariantId": "7278093e-4ab5-46f3-a00c-e5485d19a31e"
+            },
+            {
+              "technicalAssetVariantId": "aa3b554a-3635-48d0-a8c7-668199cede10"
+            },
+            {
+              "technicalAssetVariantId": "bacc8fd3-14dd-4bec-9a44-3f1843e73124"
+            }
+          ],
+          "excludedFromBilling": false,
+          "materialNumber": "8003366",
+          "ratePlans": [
+            {
+              "id": "885e04ef-c833-4f74-b3fc-2ab3a08d7ea7",
+              "markets": [
+                {
+                  "marketId": "europe"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "5573e04c-7c6e-462e-90a4-a2d68398a666",
+                  "pricePerBlock": {
+                    "amount": 865,
+                    "currency": "EUR"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "EUR",
+              "revenueCloudMarketId": "EUR",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "3fa35d066ae6f05e86eff551626cc342768078c3"
+            },
+            {
+              "id": "52bd683f-c5f4-4449-abef-743f07d16312",
+              "markets": [
+                {
+                  "marketId": "US"
+                },
+                {
+                  "marketId": "EM"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "393bdcc7-a865-4d56-b9e3-12cbf479aaf9",
+                  "pricePerBlock": {
+                    "amount": 926,
+                    "currency": "USD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "USD",
+              "revenueCloudMarketId": "USD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "01f140814566878d3784e18f502929b437d25c89"
+            },
+            {
+              "id": "d785d4e9-195f-4620-999b-265c3b86119b",
+              "markets": [
+                {
+                  "marketId": "UK"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "ff0cf4fe-0cfc-4871-9d46-685c4c8b6373",
+                  "pricePerBlock": {
+                    "amount": 632,
+                    "currency": "GBP"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "GBP",
+              "revenueCloudMarketId": "GBP",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "2f00b8b183d1d2c81ab4e0e2e0e9cfdf3d8c13ec"
+            },
+            {
+              "id": "730ce5f9-249b-4156-885e-61938f8ef3a1",
+              "markets": [
+                {
+                  "marketId": "CA"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "15aad2b0-2679-47b7-bcef-cda64e33b81d",
+                  "pricePerBlock": {
+                    "amount": 1246,
+                    "currency": "CAD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "CAD",
+              "revenueCloudMarketId": "CAD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "d4d78fa047e86ae84b5ae4a79e792ab15955a16d"
+            }
+          ]
+        },
+        {
+          "id": "3358e043-020c-42d1-bbd6-6ba8610249bc",
+          "type": "standard-entitlement-rule",
+          "servicePlanId": "f6293bbd-8714-41ca-a310-0db4fefa2eba",
+          "technicalAssetId": {
+            "composedId": {
+              "id": "2b4a959a-f7c0-43dd-91b2-c31384d279a8",
+              "version": "v1",
+              "catalog": "live"
+            }
+          },
+          "technicalAssetVariants": [
+            {
+              "technicalAssetVariantId": "17fd90b3-a12f-4e54-98fc-f99922ae03fc"
+            },
+            {
+              "technicalAssetVariantId": "d29ba360-04a0-45b1-bbe1-c60b597b52b3"
+            },
+            {
+              "technicalAssetVariantId": "bf92bfbb-167d-4154-b2dd-59735652c45a"
+            },
+            {
+              "technicalAssetVariantId": "c5ee17e3-e2ef-46e7-8ac7-3588936bdbd7"
+            },
+            {
+              "technicalAssetVariantId": "a8ff6b77-c36a-4d3a-bd12-dae2fd2ce2b8"
+            },
+            {
+              "technicalAssetVariantId": "e5ecac15-a03e-444c-b00d-887570f8b434"
+            },
+            {
+              "technicalAssetVariantId": "ade7e8de-b5ce-47e0-82a0-73f36d17d9e9"
+            },
+            {
+              "technicalAssetVariantId": "46fea46d-9f39-4cdc-b6f6-a7ff2b37971e"
+            },
+            {
+              "technicalAssetVariantId": "35635854-965f-478f-8229-80f7dd1b5db3"
+            },
+            {
+              "technicalAssetVariantId": "68816948-bc6e-40dc-879b-3c38f6dfb635"
+            }
+          ],
+          "excludedFromBilling": false,
+          "materialNumber": "8003367",
+          "ratePlans": [
+            {
+              "id": "0d41f392-0bd9-4153-b438-0f5e15cc5f16",
+              "markets": [
+                {
+                  "marketId": "US"
+                },
+                {
+                  "marketId": "EM"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "badb259d-6785-4745-a4cd-2303cd3b3ec4",
+                  "pricePerBlock": {
+                    "amount": 1431,
+                    "currency": "USD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "USD",
+              "revenueCloudMarketId": "USD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "94b6adf7ce5f068225e98239e1b1f92cc8a67b77"
+            },
+            {
+              "id": "53f64c56-dc57-4dc6-9f47-da53660d9385",
+              "markets": [
+                {
+                  "marketId": "europe"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "367e2231-7291-448a-bac2-f155950b733c",
+                  "pricePerBlock": {
+                    "amount": 1338,
+                    "currency": "EUR"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "EUR",
+              "revenueCloudMarketId": "EUR",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "f6aea58e1d53c31c407486c430aa397eb1a6ae59"
+            },
+            {
+              "id": "8df82392-e79b-4a75-99be-76f639ddf094",
+              "markets": [
+                {
+                  "marketId": "UK"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "12a2c655-589c-439c-97cd-84b795897a47",
+                  "pricePerBlock": {
+                    "amount": 977,
+                    "currency": "GBP"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "GBP",
+              "revenueCloudMarketId": "GBP",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "eb0f22c41b8df33bd3153ef8846db0960da2b18a"
+            },
+            {
+              "id": "3df3dda2-00bb-4367-b9ee-25649ae8d48b",
+              "markets": [
+                {
+                  "marketId": "CA"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "caf358a3-a93e-4775-9872-5ca269f0e355",
+                  "pricePerBlock": {
+                    "amount": 1926,
+                    "currency": "CAD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "CAD",
+              "revenueCloudMarketId": "CAD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "f535a88bbcb3d58a0c1b8fea87b678c2f34fd503"
+            }
+          ]
+        },
+        {
+          "id": "5e74aaa5-f23f-40c4-9fa7-9e2733eac32f",
+          "type": "standard-entitlement-rule",
+          "servicePlanId": "2fb2d289-5cb7-4b8c-a934-44c3c39b3292",
+          "technicalAssetId": {
+            "composedId": {
+              "id": "2b4a959a-f7c0-43dd-91b2-c31384d279a8",
+              "version": "v1",
+              "catalog": "live"
+            }
+          },
+          "technicalAssetVariants": [
+            {
+              "technicalAssetVariantId": "a4de7cc4-a768-4115-9742-532b2b97a057"
+            },
+            {
+              "technicalAssetVariantId": "d411d081-7829-45aa-aeae-6f47eecc318d"
+            },
+            {
+              "technicalAssetVariantId": "8f582a44-7b12-42a4-a6dd-e8a971de5df2"
+            },
+            {
+              "technicalAssetVariantId": "ec3a2396-08e4-42ab-ac9d-7989aba01a4d"
+            },
+            {
+              "technicalAssetVariantId": "17e5b0d0-4d95-42b2-981f-de00485a87a9"
+            },
+            {
+              "technicalAssetVariantId": "edcf51fb-4f24-4332-a921-8a6c9cca87a1"
+            },
+            {
+              "technicalAssetVariantId": "9515dcf7-d71d-40c6-bc3a-7ce3849f65f8"
+            },
+            {
+              "technicalAssetVariantId": "f3426877-6d73-422e-9ad8-038c1f35b94b"
+            },
+            {
+              "technicalAssetVariantId": "9728d0d5-b5f4-4eed-a51b-a95fb5d6ea42"
+            },
+            {
+              "technicalAssetVariantId": "a2e70ac6-a436-4e2c-9dc1-6d768fba7360"
+            }
+          ],
+          "excludedFromBilling": false,
+          "materialNumber": "8003368",
+          "ratePlans": [
+            {
+              "id": "836f1206-2f7e-4438-9c80-5b886ae284f5",
+              "markets": [
+                {
+                  "marketId": "US"
+                },
+                {
+                  "marketId": "EM"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "caef25da-644f-41c7-888d-2b692c747fb5",
+                  "pricePerBlock": {
+                    "amount": 2274,
+                    "currency": "USD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "USD",
+              "revenueCloudMarketId": "USD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "79ca0c8088dec39d6f4de6df19693f34a08cd39b"
+            },
+            {
+              "id": "4eea7604-1a11-46c1-8e0b-21e5128f1bf0",
+              "markets": [
+                {
+                  "marketId": "europe"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "0e0904f2-0f70-4975-9a17-52c100857773",
+                  "pricePerBlock": {
+                    "amount": 2125,
+                    "currency": "EUR"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "EUR",
+              "revenueCloudMarketId": "EUR",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "44d94d33557ff6aac47e24d7689bc8ffe041a5cf"
+            },
+            {
+              "id": "6bfbc9cd-e683-47c6-899e-f667292f3b5e",
+              "markets": [
+                {
+                  "marketId": "UK"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "1570f744-7d69-4db2-aa94-566ad5270ebe",
+                  "pricePerBlock": {
+                    "amount": 1551,
+                    "currency": "GBP"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "GBP",
+              "revenueCloudMarketId": "GBP",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "cd5f4ccf81095aac4bb7d67dc1ba970cc57ab8db"
+            },
+            {
+              "id": "48ae91c3-c0e0-43a2-99fc-e58128afbd9a",
+              "markets": [
+                {
+                  "marketId": "CA"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "2213da49-f100-41ce-b088-de5620991b27",
+                  "pricePerBlock": {
+                    "amount": 3060,
+                    "currency": "CAD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "CAD",
+              "revenueCloudMarketId": "CAD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "3d0ffd8c28bbd1758eb23f89e310b61787b3aa1e"
+            }
+          ]
+        },
+        {
+          "id": "6e08f650-91ba-431b-a961-1e694b4319ef",
+          "type": "standard-entitlement-rule",
+          "servicePlanId": "89fc4fbc-f69d-4ba5-8fc7-c5ee8c6ac22f",
+          "technicalAssetId": {
+            "composedId": {
+              "id": "2b4a959a-f7c0-43dd-91b2-c31384d279a8",
+              "version": "v1",
+              "catalog": "live"
+            }
+          },
+          "technicalAssetVariants": [
+            {
+              "technicalAssetVariantId": "de0611ce-73a7-412f-bdab-01facd5bc324"
+            },
+            {
+              "technicalAssetVariantId": "90cf92cb-bbfc-4838-a2db-ffc89a284b6d"
+            },
+            {
+              "technicalAssetVariantId": "459ada66-d8e8-44b6-8d58-a874063a0cde"
+            },
+            {
+              "technicalAssetVariantId": "81d4db37-6f5b-43c7-bf19-addfd761d085"
+            },
+            {
+              "technicalAssetVariantId": "204ea97d-49ef-4194-a6e7-9a456639c768"
+            },
+            {
+              "technicalAssetVariantId": "91a908ad-f030-4fff-9ffc-8dc96dc0366b"
+            },
+            {
+              "technicalAssetVariantId": "7d568df2-1088-474d-95fc-e54152778fbc"
+            },
+            {
+              "technicalAssetVariantId": "d4e77647-ca31-4590-a6f9-9b306d0225b5"
+            },
+            {
+              "technicalAssetVariantId": "1563692e-bf66-4039-bbe0-9b04c9de48b7"
+            },
+            {
+              "technicalAssetVariantId": "2b2501a5-1897-4354-9c76-123bffb21b50"
+            }
+          ],
+          "excludedFromBilling": false,
+          "materialNumber": "8003369",
+          "ratePlans": [
+            {
+              "id": "15191d3c-5b49-46ec-bf1e-141866b89ebd",
+              "markets": [
+                {
+                  "marketId": "US"
+                },
+                {
+                  "marketId": "EM"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "8fbf0184-b7ec-4d14-b3ea-0d0300fb48e4",
+                  "pricePerBlock": {
+                    "amount": 4380,
+                    "currency": "USD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "USD",
+              "revenueCloudMarketId": "USD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "f15f5789e3726fb1c3cff6ef104f7bdac575ff9c"
+            },
+            {
+              "id": "b1af2080-ff00-4a08-b27c-f15ccae64eb3",
+              "markets": [
+                {
+                  "marketId": "europe"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "f53e304a-8cd9-4ce6-b91a-ca4f37ffeccf",
+                  "pricePerBlock": {
+                    "amount": 4094,
+                    "currency": "EUR"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "EUR",
+              "revenueCloudMarketId": "EUR",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "0f75149f434f76b9d0a96d3b1b9a2a41c6514aea"
+            },
+            {
+              "id": "b067a316-cd56-41b8-9695-c2341e1b87ff",
+              "markets": [
+                {
+                  "marketId": "UK"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "52c3da9d-5112-4665-ba4f-f29058ec320b",
+                  "pricePerBlock": {
+                    "amount": 2988,
+                    "currency": "GBP"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "GBP",
+              "revenueCloudMarketId": "GBP",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "edc1ee815133b578e6edcf31eb56e1f9d59cdf9b"
+            },
+            {
+              "id": "be3980eb-3558-40b5-9b4a-1abf7cfffb6f",
+              "markets": [
+                {
+                  "marketId": "CA"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "0755b2f6-c2e9-48c7-b099-80df2b7a9a82",
+                  "pricePerBlock": {
+                    "amount": 5895,
+                    "currency": "CAD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "CAD",
+              "revenueCloudMarketId": "CAD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "c2d86acdfa64a616c0cc9bdf8101d81254ef654d"
+            }
+          ]
+        },
+        {
+          "id": "35fd0358-bb1e-4317-84b3-b5466860c6f7",
+          "type": "standard-entitlement-rule",
+          "servicePlanId": "f84a94b6-7e46-4356-811c-6e00bef879f7",
+          "technicalAssetId": {
+            "composedId": {
+              "id": "2b4a959a-f7c0-43dd-91b2-c31384d279a8",
+              "version": "v1",
+              "catalog": "live"
+            }
+          },
+          "technicalAssetVariants": [
+            {
+              "technicalAssetVariantId": "9d234f6d-7b22-4fd2-b2ea-70d59c6f094c"
+            },
+            {
+              "technicalAssetVariantId": "8d5102cf-a9ef-4d4d-be59-0fc66398d606"
+            },
+            {
+              "technicalAssetVariantId": "975523b7-278e-40cf-a608-bf8a36b9cdc4"
+            },
+            {
+              "technicalAssetVariantId": "6e4b5c1f-6b9a-4a34-919f-ffc07b5ce137"
+            },
+            {
+              "technicalAssetVariantId": "34ff9429-9b26-46f1-b4a3-588771f2da45"
+            },
+            {
+              "technicalAssetVariantId": "9418d434-589b-4bb1-aa47-567936686ed8"
+            },
+            {
+              "technicalAssetVariantId": "2be6115b-ab37-476a-87ae-a59735b895eb"
+            },
+            {
+              "technicalAssetVariantId": "2409caff-9b67-4b33-984d-47bcaa36283f"
+            },
+            {
+              "technicalAssetVariantId": "b553fd0b-7bd9-423e-9f26-1719780406e3"
+            },
+            {
+              "technicalAssetVariantId": "572186d0-df64-4d67-8665-06f4b60ebf32"
+            }
+          ],
+          "excludedFromBilling": false,
+          "materialNumber": "8003370",
+          "ratePlans": [
+            {
+              "id": "2f016592-28b9-48d7-a391-881e49b678b5",
+              "markets": [
+                {
+                  "marketId": "US"
+                },
+                {
+                  "marketId": "EM"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "08067823-060c-4d5b-a3fb-a9a61969d1be",
+                  "pricePerBlock": {
+                    "amount": 6487,
+                    "currency": "USD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "USD",
+              "revenueCloudMarketId": "USD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "7b6e16435d776b3352bda0d13e24490353d9db91"
+            },
+            {
+              "id": "a9e414f8-5edc-48fd-8513-72606d796c6f",
+              "markets": [
+                {
+                  "marketId": "europe"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "fd72e3d1-d64b-4375-89ac-3426ece456bc",
+                  "pricePerBlock": {
+                    "amount": 6062,
+                    "currency": "EUR"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "EUR",
+              "revenueCloudMarketId": "EUR",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "0119bf1968867a7e75571f0326a2ef88dc018e46"
+            },
+            {
+              "id": "8d64a1ba-c391-478b-8a7b-9022e89dc304",
+              "markets": [
+                {
+                  "marketId": "UK"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "54875cdf-7bbe-442a-b219-9f49551b6a3f",
+                  "pricePerBlock": {
+                    "amount": 4425,
+                    "currency": "GBP"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "GBP",
+              "revenueCloudMarketId": "GBP",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "42c9db0f4fe96a2bb9723cc3e763cab03a33fd60"
+            },
+            {
+              "id": "f9361f77-8181-4282-8ac7-250bdeda0e69",
+              "markets": [
+                {
+                  "marketId": "CA"
+                }
+              ],
+              "periodicity": "calendar-monthly",
+              "fixedRates": [],
+              "setupFees": [],
+              "blockRates": [
+                {
+                  "id": "6568af09-047e-454b-bab2-3c21bcb0ef31",
+                  "pricePerBlock": {
+                    "amount": 8730,
+                    "currency": "CAD"
+                  },
+                  "metricId": "instances",
+                  "includedQuantity": 0,
+                  "blockSize": 1
+                }
+              ],
+              "allUnitVolumeRates": [],
+              "tierRates": [],
+              "currency": "CAD",
+              "revenueCloudMarketId": "CAD",
+              "group": {
+                "id": "0",
+                "validFrom": "2017-11-01T00:00:00Z"
+              },
+              "checksum": "9f08859cfe797bb6edbeec9c805c0bc8ed95a5b5"
+            }
+          ]
+        }
+      ],
+      "contractTypes": [
+        {
+          "name": "Subscription",
+          "code": "subscription"
+        }
+      ],
+      "tags": [
+        {
+          "type": "CAT",
+          "id": "2.1",
+          "val": "2.1"
         }
       ]
     }
